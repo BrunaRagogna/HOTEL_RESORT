@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{ 
+    --cor-azul:#153E54;  
+    --cor-claro:#2E5159;
+    --cor-mostarda:#6C7336;
+    --cor-marron:#888C68;
+    --cor-dourado:#D4C373;
+    --cor-hover:;
+}
+.cabecalho{
+    top: 0;
+    padding-top: 2%;
+    padding-left: 10%;
+    background-color:var(--cor-azul);
+    text-decoration: none;
+    
+}
+.cabecalho__menu{
+    display: inline-flex;
+    align-items: center;
+    gap: 80px;
+    
+}
+.cabecalho__menu__link{
+    text-decoration: none;
+    font-family: 'Krona One', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--cor-dourado);
+
+}
+.cabecalho__menu__link:hover{
+    color: var(--cor-mostarda);
+}
+
+.texto__principal{
+    background-color:var(--cor-marron);
+}
+.descontos_exclusivos{
+    padding-top: 5% ;
+    font-family: 'Krona One', sans-serif;
+    color: var(--cor-azul);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.dados{
+    padding-bottom: 5% ;
+    font-family: 'Krona One', sans-serif;
+    color: var(--cor-azul);
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+.fotos_descanso{
+    padding-top: 5px;
+    text-shadow: 0 3px 3px var(--cor-marron);
+    background-color:var(--cor-claro);
+    color: var(--cor-dourado);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roteiro de Dança', sans-serif;
+    align-items: flex-start;
+    border-radius: 5px;
+}
+
+.foto__hotel{
+    overflow: hidden;
+}
+
+.foto__hotel{
+    border-radius: 5px;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}  
+
+.foto__hotel:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+.foto__praia{
+    overflow: hidden;
+}
+
+.foto__praia{
+    border-radius: 5px;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}  
+
+.foto__praia:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+.foto__piscina{
+    overflow: hidden;
+}
+
+.foto__piscina{
+    border-radius: 5px;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}  
+
+.foto__piscina:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+.foto__piscina__cafe{
+    overflow: hidden;
+}
+
+.foto__piscina__cafe{
+    border-radius: 5px;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}  
+
+.foto__piscina__cafe:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+.foto__quarto1{
+    overflow: hidden;
+}
+
+.foto__quarto1{
+    border-radius: 5px;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}  
+
+.foto__quarto1:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+.foto_recepcao{
+    overflow: hidden;
+}
+
+.foto_recepcao{
+    border-radius: 5px;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}  
+
+.foto_recepcao:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+.rodape{
+    background-color: #153E54;
+    padding: 30px;
+    width: 95%;
+    padding top:0%;
+    display:flex;
+    align-items:center;
+    font-family:'Krona One', sans-serif;
+    font-size:15px;
+    font-weight:300;
+    
+}
+
+.endereco_rodape{
+    display: flex;
+    padding-left: 12%;
+    padding-right: 5%;
+    color: var(--cor-dourado);
+
+}
+
+.facebook{
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.twitter{
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+
+
+
+
+
